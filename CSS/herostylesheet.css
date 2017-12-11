@@ -1,0 +1,66 @@
+html, body{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-color: #24248f;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 190px;
+	/*Height adjust with width. Border-radius smooths out the corners and makes a circle*/
+	width: 360px;
+	height: 350px;
+	border: 15px solid #00e6e6
+}
+
+.content{
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #24248f;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #cccccc;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
